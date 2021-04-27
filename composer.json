@@ -1,0 +1,16 @@
+{
+    "name": "kkowalczyk/faker",
+    "description": "Create csv file with generated data.",
+    "type": "project",
+    "require": {
+        "fzaninotto/faker": "1.9.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil Kowalczyk",
+            "email": "kkowalczyk@ifxpayments.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
