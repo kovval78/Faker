@@ -3,13 +3,15 @@
 require_once 'vendor/autoload.php';
 
 use App\File;
-use App\Test\Test;
-use App\Argv;
-
-
-//$argv = new Argv($argv);
+use App\InputCli;
 
 $faker = Faker\Factory::create('pl_PL');
+
+$file = new File();
+$argv = new InputCli($argv);
+
+
+
 
 //$file = new File('file.csv');
 //
